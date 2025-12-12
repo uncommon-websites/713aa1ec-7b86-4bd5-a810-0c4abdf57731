@@ -14,71 +14,71 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-woman-doing-strength-training-with-dumbb-1765517418962-0.webp",
+    "/generated/image-athletic-woman-performing-barbell-squats-1765517423144-1.webp",
+    "/generated/image-confident-woman-resting-between-sets-in--1765517425626-2.webp",
+    "/generated/image-woman-doing-cable-exercises-for-upper-bo-1765517427902-3.webp",
+    "/generated/image-athletic-woman-stretching-and-warming-up-1765517430177-4.webp",
+    "/generated/image-woman-checking-fitness-progress-on-phone-1765517432433-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Personalized for your body.",
+      desc: "Aura adapts to your unique physiology, goals, and progress with programming designed specifically for women by elite bodybuilding experts.",
+      image: "/generated/image-woman-reviewing-personalized-workout-pla-1765517434730-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Track every transformation.",
+      desc: "Monitor your strength gains, body composition changes, and workout performance with precision tracking built for serious results.",
+      image: "/generated/image-athletic-woman-tracking-workout-progress-1765517437041-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Expert guidance, daily.",
+      desc: "Train with confidence knowing every workout is backed by proven Olympia-level methodology adapted for your fitness journey.",
+      image: "/generated/image-confident-woman-preparing-for-workout-wi-1765517439336-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Choose your transformation goal.",
+      desc: "Select from strength building, body recomposition, or competition prep. Each program is designed with Olympia-proven methodology adapted for your level.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Complete your fitness profile.",
+      desc: "Answer questions about your training history, current fitness level, and body composition goals so we can personalize your program.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Get your personalized program.",
+      desc: "Receive your custom training plan instantly, with progressive overload built in and exercises demonstrated by elite coaches.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Track your workouts daily.",
+      desc: "Log sets, reps, and weights with our intuitive interface. Watch your strength numbers climb and body transform week by week.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Evolve with adaptive programming.",
+      desc: "Your program adjusts based on your progress, ensuring you're always challenged at the right intensity for continuous gains.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "What does an Aura membership include?",
+    "Is Aura right for my fitness level?",
+    "How is Aura different from other fitness apps?",
+    "Do I need gym equipment to use Aura?",
+    "What makes Aura's programming unique for women?"
   ];
 </script>
 
@@ -88,13 +88,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Elite strength training<br />designed for women.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Transform your body with personalized programs from a 2x Miss Olympia champion. Expert guidance, proven methodology, beautiful design.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Start your transformation
     </button>
   </section>
 
@@ -103,7 +103,7 @@
     <div class="flex gap-4 px-6 min-w-max">
       {#each heroImages as img, i}
         <div class="relative w-48 h-64 md:w-64 md:h-80 rounded-3xl overflow-hidden flex-shrink-0">
-          <img src={img} alt="Lifestyle" class="w-full h-full object-cover" />
+          <img src={img} alt="Women strength training" class="w-full h-full object-cover" />
         </div>
       {/each}
     </div>
@@ -125,21 +125,21 @@
               <div class="w-8 h-8 rounded-full bg-gray-100"></div>
             </div>
             <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
+              <div class="text-xs text-gray-500 mb-1">Today's Workout</div>
+              <div class="text-2xl font-bold">Upper Body</div>
             </div>
             <div class="space-y-3">
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
                 <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
+                <div class="w-full h-1 bg-primary-400 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
                 <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
+                <div class="w-full h-1 bg-primary-300 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
                 <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
+                <div class="w-full h-1 bg-primary-200 rounded"></div>
               </div>
             </div>
           </div>
@@ -149,13 +149,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Your training at a glance.<br />
+          Track every workout, monitor your progressive overload, and watch your strength numbers climb. Access your personalized program with exercise demos and form cues from elite coaches.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            Watch demo
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -174,10 +174,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        You deserve strength that transforms everything.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        Your transformation is more than aesthetics—it's confidence, power, and becoming the strongest version of yourself. With elite-level expertise adapted for your body, we help you build real strength that changes how you move through the world.
       </p>
     </div>
   </section>
@@ -201,13 +201,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Most fitness apps weren't built for women's bodies or goals. Aura changes that. Every program is rooted in competitive bodybuilding science but designed to be approachable, beautiful, and effective for any woman ready to transform."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-professional-female-bodybuilder-and-fitn-1765517441626-9.webp" alt="Founder" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Aura Founder</div>
+        <div class="text-gray-500 text-xs">2x Miss Olympia Champion</div>
       </div>
     </div>
   </section>
@@ -216,16 +216,16 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">Instant program access.</h3>
+        <p class="text-gray-500 text-sm font-light">Complete your profile and receive your personalized training plan immediately. Start your first workout today.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">Progressive overload built in.</h3>
+        <p class="text-gray-500 text-sm font-light">Your program automatically adjusts intensity based on your performance, ensuring continuous strength gains.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Olympia-proven methodology.</h3>
+        <p class="text-gray-500 text-sm font-light">Train with techniques refined at the highest level of competition, adapted specifically for women's physiology.</p>
       </div>
     </div>
   </section>
@@ -234,7 +234,7 @@
   <section class="py-20 px-6 max-w-7xl mx-auto">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">From your first workout to your strongest self, Aura guides you through every rep. Personalized programming, expert coaching, and progress tracking combine to create transformations that last.</p>
     </div>
 
     <div class="space-y-6">
@@ -256,25 +256,25 @@
                 {#if step.image === 'plan'}
                   <div class="space-y-3 mt-4">
                     <div class="p-3 border rounded-xl border-black bg-gray-50">
-                      <div class="font-bold text-xs mb-1">Optimal ID</div>
+                      <div class="font-bold text-xs mb-1">Strength Builder</div>
                       <div class="h-1 w-full bg-gray-200 rounded"></div>
                     </div>
                     <div class="p-3 border rounded-xl border-gray-200">
-                       <div class="font-bold text-xs mb-1 text-gray-400">Essential</div>
+                       <div class="font-bold text-xs mb-1 text-gray-400">Body Recomp</div>
                        <div class="h-1 w-full bg-gray-100 rounded"></div>
                     </div>
                   </div>
                 {:else if step.image === 'schedule'}
                    <div class="mt-4">
-                     <div class="text-center font-bold mb-4">Appointment</div>
-                     <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Map View</div>
-                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Confirm</button>
+                     <div class="text-center font-bold mb-4">Fitness Profile</div>
+                     <div class="bg-gray-100 h-32 rounded-xl mb-3 flex items-center justify-center text-xs text-gray-400">Profile Questions</div>
+                     <button class="w-full bg-black text-white text-xs py-2 rounded-lg">Continue</button>
                    </div>
                 {:else if step.image === 'results'}
                    <div class="bg-black h-full -mx-3 -mt-8 pt-10 px-3 text-white">
                       <div class="text-center mb-6">
                         <div class="w-12 h-12 bg-gray-700 rounded-full mx-auto mb-2"></div>
-                        <div class="text-sm font-bold">Grace Parker</div>
+                        <div class="text-sm font-bold">Your Program</div>
                       </div>
                       <div class="space-y-2">
                          <div class="bg-gray-800 p-2 rounded-lg h-10"></div>
@@ -283,22 +283,22 @@
                    </div>
                 {:else if step.image === 'notes'}
                    <div class="mt-4 space-y-3">
-                      <div class="font-bold text-sm">Health Status</div>
+                      <div class="font-bold text-sm">Today's Workout</div>
                       <div class="text-[10px] text-gray-500 leading-relaxed">
-                        You usually make smart choices for your health through regular exercise...
+                        3 sets × 8-10 reps
                       </div>
                       <div class="bg-gray-50 p-2 rounded text-[10px] text-gray-600">
-                        Since your diet lacks enough fruits and vegetables...
+                        Barbell Bench: 65 lbs → 70 lbs
                       </div>
                    </div>
                 {:else}
                    <div class="mt-4 flex flex-col h-full">
                       <div class="flex-1">
                         <div class="bg-gray-100 p-2 rounded-lg rounded-tl-none text-[10px] mb-2 max-w-[80%]">
-                          What benefits can I get by bringing ApoB closer to the optimal range?
+                          How do I know when to increase weight??
                         </div>
                         <div class="bg-blue-50 p-2 rounded-lg rounded-tr-none text-[10px] ml-auto max-w-[80%]">
-                          By lowering ApoB, you reduce the number of cholesterol-carrying particles...
+                          When you can complete all sets with good form, increase by 5-10%
                         </div>
                       </div>
                       <div class="h-10 border-t mt-2"></div>
@@ -314,16 +314,16 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Community Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Built by women, for women.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Join a community that understands your journey.</h2>
         </div>
-        <!-- Abstract Map Visual -->
+        <!-- Abstract Visual -->
         <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
            <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
+              <!-- Simplified dot representation -->
               {#each Array(100) as _, i}
                 <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
               {/each}
@@ -340,7 +340,7 @@
         <!-- Blurred Text Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
            <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+             Workout|%d$9aT Progr|I7e/s Stren|&5g! Transf|?Pm_Lw
            </div>
         </div>
       </div>
@@ -350,64 +350,64 @@
   <!-- Pricing Section -->
   <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Elite training for every woman.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Olympia-level expertise, personalized programming, and expert guidance—made accessible. Because investing in your strength is investing in yourself.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Foundation Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6"></div>
+        <h3 class="text-2xl font-medium mb-1">Foundation</h3>
+        <p class="text-sm text-gray-500 mb-6">Begin your transformation journey.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$29</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">7-day free trial included</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Personalized strength training programs adapted to your level.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Progressive overload tracking and workout logging.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Exercise library with form demonstrations and coaching cues.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Elite Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="absolute top-0 right-0 bg-primary-100 px-4 py-1 rounded-bl-xl text-xs font-medium text-primary-800">Most Popular</div>
+        <div class="w-12 h-12 bg-primary-200 rounded-full mb-6"></div>
+        <h3 class="text-2xl font-medium mb-1">Elite</h3>
+        <p class="text-sm text-gray-500 mb-6">The complete transformation system.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$49</span>
+          <span class="text-gray-400 text-sm">/mo</span>
+          <div class="text-[10px] text-primary-600 mt-1 font-medium">7-day free trial included</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Everything in Foundation plus advanced programming options.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Nutrition guidance and macro tracking integrated with training.
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Direct access to coaching team for form checks and program adjustments.
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start free trial</button>
       </div>
     </div>
   </section>
@@ -425,7 +425,7 @@
     </div>
     <div class="mt-12 text-center">
       <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
-        View all Frequently Asked Questions
+        View all FAQs
       </button>
     </div>
   </section>
@@ -435,18 +435,16 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <svg width="20" height="24" viewBox="0 0 82 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M53.7515 96.973C73.0977 96.973 83.4963 73.5156 70.1958 59.7314L69.954 59.4897L40.9346 30.4703L11.9153 59.4897L11.6735 59.7314C-1.8689 73.5156 8.77157 96.973 28.1178 96.973H53.7515Z" fill="#201B21"/>
+             <path d="M11.9154 39.6597L15.5428 43.2872L40.9347 17.8952L66.3267 43.2872L69.9541 39.6597C79.1435 30.4703 82.7709 18.6208 81.8036 7.49668C81.32 3.14378 77.6925 0 73.3396 0H8.77168C4.41878 0 0.549534 3.14378 0.307706 7.49668C-0.901432 18.6208 2.48413 30.2285 11.9154 39.6597Z" fill="#201B21"/>
+           </svg>
+           <span class="font-bold text-lg tracking-wider">Aura</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#programs" class="hover:text-black">Programs</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Blog</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
@@ -460,9 +458,9 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Aura is a fitness technology platform providing personalized training programs. All fitness programs are designed for general wellness purposes and should not replace professional medical advice. Consult with a healthcare provider before beginning any new exercise program, especially if you have pre-existing health conditions. Results may vary based on individual effort, consistency, and adherence to the program. All information provided by Aura is for educational and informational purposes only.</p>
+        <p>Aura's membership includes access to personalized training programs, exercise libraries, and progress tracking tools. Additional features and services may be available at different membership tiers. For complete details, see our Terms & Conditions.</p>
+        <p class="mt-2">By providing your contact information, you agree to receive communications from Aura. Message and data rates may apply. Message frequency varies.</p>
       </div>
     </div>
   </footer>
